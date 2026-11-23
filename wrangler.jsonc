@@ -1,0 +1,10 @@
+{
+  // Cloudflare Worker settings for shankit.com (static site)
+  "name": "shankit",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./",
+    // Serve 404.html for any address that doesn't exist (e.g. /products/...)
+    "not_found_handling": "404-page"
+  }
+}
